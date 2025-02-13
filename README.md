@@ -2,6 +2,9 @@
 
 Welcome to the role-based project! This project showcases both the frontend and backend components, demonstrating user authentication, role-based access control, and more.
 
+![App Demo](./Screenshot%20From%202025-02-14%2002-08-00.png)
+
+
 ## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
