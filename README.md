@@ -46,6 +46,10 @@ The role-based project provides a platform where users can:
 - **Material-UI**: A popular React UI framework.
 - **Formik**: A library for building forms in React.
 - **Yup**: A JavaScript schema builder for value parsing and validation.
+- **Vite**: A build tool that provides a fast development environment.
+- **react-hot-toast**: Add beautiful notifications to your React app.
+- **@reduxjs/toolkit**: The official, recommended way to write Redux logic.
+- **redux-persist**: Persist and rehydrate a Redux store.
 
 ### Backend
 - **Node.js**: A JavaScript runtime built on Chrome's V8 JavaScript engine.
@@ -55,6 +59,8 @@ The role-based project provides a platform where users can:
 - **JWT (JSON Web Tokens)**: A compact, URL-safe means of representing claims to be transferred between two parties.
 - **bcrypt**: A library to help hash passwords.
 - **dotenv**: A module to load environment variables from a .env file.
+- **cors**: A package for providing a Connect/Express middleware that can be used to enable CORS with various options.
+- **cookie-parser**: Parse Cookie header and populate req.cookies with an object keyed by the cookie names.
 
 ## Prerequisites
 - Node.js (v20.17.0)
