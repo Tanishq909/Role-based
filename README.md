@@ -62,6 +62,7 @@ The role-based project provides a platform where users can:
 - **cors**: A package for providing a Connect/Express middleware that can be used to enable CORS with various options.
 - **cookie-parser**: Parse Cookie header and populate req.cookies with an object keyed by the cookie names.
 
+
 ## Prerequisites
 - Node.js (v20.17.0)
 - MongoDB
@@ -71,7 +72,7 @@ The role-based project provides a platform where users can:
 ### Frontend
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/frontend-role-based-project.git
+   git clone https://github.com/Tanishq909/Role-based/tree/master/frontend/client.git
    ```
 
 2. Navigate to the project directory:
@@ -87,7 +88,7 @@ The role-based project provides a platform where users can:
 ### Backend
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/backend-role-based-project.git
+   git clone https://github.com/Tanishq909/Role-based/tree/master/backend.git
    ```
 
 2. Navigate to the project directory:
@@ -194,3 +195,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author
+**Tanishq Kumar**  
+- **GitHub**: [@Tanishq909](https://github.com/Tanishq909)
