@@ -17,7 +17,7 @@ app.use(express.urlencoded({extended:true})); // Parses incoming requests with u
 app.use(cookieparser()); // Parses incoming cookie requests
 app.use(cors({
     credentials: true,
-    origin: "https://role-based-ebd13.web.app"
+    origin: "https://role-based-ebd13.web.app/"
 })); // Enables CORS for all routes or token use hoga frontend mai bhi
 
 
