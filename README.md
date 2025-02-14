@@ -4,7 +4,6 @@ Welcome to the role-based project! This project showcases both the frontend and 
 
 <img src="./Screenshot%20From%202025-02-14%2002-08-00.png" alt="App Demo" width="500" align="right">
 
-
 ## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
@@ -61,7 +60,6 @@ The role-based project provides a platform where users can:
 - **dotenv**: A module to load environment variables from a .env file.
 - **cors**: A package for providing a Connect/Express middleware that can be used to enable CORS with various options.
 - **cookie-parser**: Parse Cookie header and populate req.cookies with an object keyed by the cookie names.
-
 
 ## Prerequisites
 - Node.js (v20.17.0)
@@ -197,5 +195,5 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Author
-**Tanishq Kumar**  
-- **GitHub**: [@Tanishq909](https://github.com/Tanishq909)
+**Ekansh**  
+- **GitHub**: [@ekansh](https://github.com/ekansh)
