@@ -18,12 +18,8 @@ app.use(cookieparser()); // Parses incoming cookie requests
 app.use(cors({
     credentials: true,
     origin: "https://role-based-ebd13.web.app",
-    methods: "GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS",
-    allowedHeaders: "Content-Type,Authorization",
 })); // Enables CORS for all routes or token use hoga frontend mai bhi
 
-// Handle preflight requests
-app.options('*', cors());
 
 app.use('/api/auth',AuthRoutes);
 app.use('/api/admin',AdminRoutes);
