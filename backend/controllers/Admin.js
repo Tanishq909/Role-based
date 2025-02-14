@@ -11,7 +11,7 @@ const Getuser = async (req, res) => {
     }
 }
 
-const deletUser = async(req,res) => {
+const deleteUser = async(req,res) => {
     try {
         const userId = req.params.id;
         //Admin kud ko delete nahi kar sakta 
@@ -30,4 +30,4 @@ const deletUser = async(req,res) => {
     }
 }
 
-export {Getuser,deletUser};
+export {Getuser,deleteUser};
