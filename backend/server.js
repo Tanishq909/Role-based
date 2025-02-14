@@ -7,7 +7,7 @@ import AuthRoutes from "./routes/Auth.js";
 import AdminRoutes from "./routes/AdminRoutes.js";
 dotenv.config();
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT;
 
 //Mongodb
 DbCon();
@@ -17,7 +17,7 @@ app.use(express.urlencoded({extended:true})); // Parses incoming requests with u
 app.use(cookieparser()); // Parses incoming cookie requests
 app.use(cors({
     credentials: true,
-    origin: "http://localhost:5173"
+    origin: "https://role-based-ebd13.web.app"
 })); // Enables CORS for all routes or token use hoga frontend mai bhi
 
 
