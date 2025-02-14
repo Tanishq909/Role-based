@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-    baseURL: "http://localhost:4000/",
+    baseURL: "https://role-based-backend-git-master-tanishq909s-projects.vercel.app",
     headers: {
         "Content-Type": 'application/json'
     },
